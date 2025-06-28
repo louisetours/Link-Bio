@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #FAF1E4; /* off-white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #D97742; /* terracota */
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 26px;
+  color: #5A7D8C; /* azul pastel */
+  margin: 0;
+}
+
+.description {
+  font-size: 15px;
+  color: #6A7D73; /* verde oliva suave */
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: block;
+  margin: 10px 0;
+  padding: 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #E8B7A9; /* pêssego */
+  color: #5A3A28; /* texto escuro */
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #D97742; /* terracota no hover */
+  color: #fff;
+}
