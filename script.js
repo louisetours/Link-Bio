@@ -1,2 +1,2 @@
-// (opcional) Código JS adicional no futuro
-console.log("Bio de Louise Tours carregada!");
+// JS pronto para futuras interações, se quiser adicionar depois
+console.log("Página carregada com sucesso!");
