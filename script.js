@@ -1,2 +1,2 @@
-// Atualiza o ano automaticamente no rodapé
-document.getElementById("year").textContent = new Date().getFullYear();
+// (opcional) Código JS adicional no futuro
+console.log("Bio de Louise Tours carregada!");
