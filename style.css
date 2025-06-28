@@ -1,67 +1,70 @@
+/* Cores da paleta usada no modelo */
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #FAF1E4; /* fundo areia claro */
   font-family: 'Segoe UI', sans-serif;
+  background-color: #FAF1E4;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 20px;
   min-height: 100vh;
+  padding: 20px;
 }
 
-.profile {
-  background-color: #D9E3D5; /* verde clarinho */
-  border-radius: 25px;
-  padding: 30px 20px;
-  max-width: 400px;
+.card {
+  background-color: #D9E3D5; /* Verde clarinho */
+  border-radius: 30px;
+  padding: 40px 20px;
   width: 100%;
+  max-width: 400px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+  position: relative;
 }
 
-.header img {
+.profile-pic img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: -90px;
   border: 5px solid #FAF1E4;
+  margin-top: -90px;
   background-color: #fff;
 }
 
-.header h1 {
-  color: #C4663B; /* terracota */
+h1 {
   font-size: 24px;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  color: #C4663B; /* Terracota */
+  margin: 20px 0 5px;
 }
 
-.header h2 {
-  color: #6A7D73;
+h2 {
   font-size: 16px;
-  margin-bottom: 10px;
+  color: #6A7D73;
+  margin-bottom: 15px;
 }
 
-.header p {
+.bio {
   font-size: 14px;
   color: #5A3A28;
   margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 .buttons a {
   display: block;
-  background-color: #C4663B; /* terracota */
+  width: 90%;
+  margin: 10px auto;
+  padding: 14px;
+  background-color: #C4663B; /* Terracota */
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  margin: 10px auto;
-  padding: 14px;
-  border-radius: 25px;
-  width: 90%;
+  border-radius: 30px;
   transition: background 0.3s ease;
 }
 
@@ -69,7 +72,7 @@ body {
   background-color: #A6512F;
 }
 
-.footer p {
+.footer {
   font-size: 14px;
   color: #C4663B;
   margin-top: 30px;
