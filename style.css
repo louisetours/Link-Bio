@@ -32,7 +32,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   border: 5px solid #FAF1E4;
-  margin-top: -120px; /* subiu um pouco mais pra encaixar melhor */
+  margin-top: -90px; /* subiu um pouco mais pra encaixar melhor */
   background-color: #fff;
 }
 
