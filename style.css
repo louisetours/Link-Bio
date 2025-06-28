@@ -24,6 +24,7 @@ body {
   text-align: center;
   box-shadow: 0 8px 30px rgba(0,0,0,0.05);
   position: relative;
+  animation: fadeSlide 1s ease-out;
 }
 
 .profile-pic img {
@@ -32,8 +33,9 @@ body {
   border-radius: 50%;
   object-fit: cover;
   border: 5px solid #FAF1E4;
-  margin-top: -90px; /* subiu um pouco mais pra encaixar melhor */
+  margin-top: -90px;
   background-color: #fff;
+  animation: popIn 1.2s ease-out;
 }
 
 h1 {
@@ -66,7 +68,14 @@ h2 {
   font-weight: bold;
   border-radius: 30px;
   transition: background 0.3s ease;
+  opacity: 0;
+  animation: fadeSlide 0.8s ease-out forwards;
 }
+
+.buttons a:nth-child(1) { animation-delay: 0.4s; }
+.buttons a:nth-child(2) { animation-delay: 0.6s; }
+.buttons a:nth-child(3) { animation-delay: 0.8s; }
+.buttons a:nth-child(4) { animation-delay: 1s; }
 
 .buttons a:hover {
   background-color: #A6512F;
@@ -76,4 +85,27 @@ h2 {
   font-size: 14px;
   color: #C4663B;
   margin-top: 30px;
+}
+
+/* ===== Animações ===== */
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
