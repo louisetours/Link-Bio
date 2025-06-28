@@ -1,9 +1,9 @@
-/* Paleta inspirada na imagem enviada */
+/* Paleta inspirada na sua identidade visual */
 
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fdf6ee; /* tom areia clarinho */
+  background-color: #fdf6ee; /* areia clarinho */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body {
   border-radius: 20px;
   width: 90%;
   max-width: 420px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
 
 .profile-pic img {
@@ -44,7 +44,7 @@ h1 {
 .btn {
   display: block;
   background-color: #e8b7a9; /* pêssego */
-  color: #5a3a28; /* marrom suave */
+  color: #5a3a28; /* marrom escuro */
   text-decoration: none;
   font-weight: bold;
   padding: 14px;
@@ -56,4 +56,10 @@ h1 {
 .btn:hover {
   background-color: #d97742; /* terracota */
   color: #fff;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #888;
 }
